@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  dev:
+    image: "rust:latest"
+    volumes:
+      - ./homework1:/homework1
+      - ./homework2:/homework2

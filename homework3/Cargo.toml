@@ -1,0 +1,32 @@
+#[package]
+#name = "enc_web"
+#version = "0.1.0"
+#edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+#[dependencies]
+#rand = "0.8.4"
+#num-traits = "0.2.14"
+##actix-web = "3.3.2"
+##actix-web-httpauth = "0.5.1"
+#diesel = {version = "1.4.8", features = ["sqlite", "r2d2"]}
+##dotenv = "0.15.0"
+##r2d2 = "0.8.9"
+#serde = "1.0.130"
+#yew = "0.18.0"
+#getrandom = { version = "0.2", features = ["js"] }
+#
+#[dev-dependencies]
+#serial_test = "0.5.1"
+
+[workspace]
+members = [
+    "logic",
+    "backend",
+    "frontend",
+    "main",
+]
+default-members = [
+    "main",
+]

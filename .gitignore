@@ -1,0 +1,13 @@
+# JetBrains IDEs
+.idea
+homework1/.idea
+homework2/.idea
+homework3/.idea
+
+# Rust and solution related ignores
+homework1/calculation_result.txt
+homework1/target
+homework2/calculation_result.txt
+homework2/target
+homework3/logic/calculation_result.txt
+homework3/target

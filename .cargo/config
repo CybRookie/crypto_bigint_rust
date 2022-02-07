@@ -1,0 +1,10 @@
+# Configuration for Cargo
+# To help it find clang compiler for amd64 and ARM macOS building
+
+[target.x86_64-apple-darwin]
+linker = "x86_64-apple-darwin20.4-clang"
+ar = "x86_64-apple-darwin20.4-ar"
+
+[target.aarch64-apple-darwin]
+linker = "arm64-apple-darwin20.4-clang"
+ar = "arm64-apple-darwin20.4-ar"
